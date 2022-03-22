@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(62, 160, 160);
+}
+.top {
+    background-color: blue;
+    color: blanchedalmond;
+    text-align: center
+}
+.introduction{
+    height: 460px;
+}
+mark {
+    background-color: chartreuse;
+}
+.index mark {
+    background-color: tomato;
+}
+.index ol {
+    background-color: darkgreen;
+    width: 300px;
+}
+.index li {
+    background-color: greenyellow;
+    margin-bottom: 10px;
+}
+.index li:hover {
+    background-color: violet;
+    color: white;
+}
+.index a:hover {
+    color: saddlebrown;
+}
+.mentor table {
+    border: 3px solid red;/*굵기 선종류 색상*/
+}
+.mentor table td {
+    height: 50px;
+    width: 100px;
+    border: 3px dotted yellow;
+    background-color: rgb(180, 80, 49);
+    text-align: center;
+}
+.mapp img {
+    width: auto;
+    height: 250px;
+}
