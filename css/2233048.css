@@ -1,17 +1,20 @@
 body {
     background-color: rgb(62, 160, 160);
 }
+/*제목*/
 .top {
     background-color: blue;
     color: blanchedalmond;
     text-align: center
 }
+/*소개 글*/
 .introduction{
     height: 460px;
 }
 mark {
     background-color: chartreuse;
 }
+/*목차*/
 .index mark {
     background-color: tomato;
 }
@@ -30,6 +33,7 @@ mark {
 .index a:hover {
     color: saddlebrown;
 }
+/*동아리 운영진*/
 .mentor table {
     border: 3px solid red;/*굵기 선종류 색상*/
 }
@@ -40,6 +44,27 @@ mark {
     background-color: rgb(180, 80, 49);
     text-align: center;
 }
+/*동아리 팀원(과제)*/
+.group table, td, th {
+    height: 50px;
+    width: 200px;
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.group tr:nth-child(odd){
+    background-color: seagreen;
+}
+/*링크 이동(과제)*/
+.linkk a {
+    text-decoration: none;
+}
+.linkk a:hover {
+    text-decoration: underline;
+    background-color: blue;
+    color: red;
+}
+/*소사캠퍼스*/
 .mapp img {
     width: auto;
     height: 250px;
